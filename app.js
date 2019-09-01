@@ -9,7 +9,7 @@ app.use(express.static(__dirname + "/public"));
 // ROUTES ============================================
 
 app.get("/", function(req, res){
-  res.send("Hello");
+  res.render("front");
 });
 
 app.listen(3000, function(){
