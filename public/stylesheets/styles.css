@@ -1,3 +1,38 @@
 body {
   background-color: lavender;
 }
+
+/* For Mobile Size */
+/* @media only screen and (max-width : 991px) {
+} */
+
+
+/* NAVBAR CLASSES====================== */
+
+
+.desktop-logo {
+  display: none;
+  margin: 0 2rem;
+  font-size: 3rem;
+}
+
+.mobile-logo {
+  text-align: center;
+  width: 100vw;
+  font-size: 3rem;
+}
+
+/* For Deskop Size */
+@media only screen and (min-width : 992px) {
+  .navbar .nav-link {
+    margin-top: 1.5rem;
+  }
+
+  .desktop-logo {
+    display: inline-block;
+  }
+
+  .mobile-logo {
+    display: none;
+  }
+}
