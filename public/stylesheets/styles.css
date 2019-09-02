@@ -41,6 +41,45 @@ body {
   background-color: lightgrey;
 }
 
+/* PROJECTS PAGE CLASSES =============== */
+.projects-container {
+  padding: 3rem 0 6rem;
+}
+
+.projects-container button {
+  display: block;
+  margin: 1.5rem auto 0;
+  width: 18rem;
+}
+
+.project-card {
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+  margin: 1rem auto 3rem;
+}
+
+/* For Deskop Size */
+@media only screen and (min-width : 992px) {
+  .project-card {
+    border: 1px solid black;
+    border-radius: .2rem;
+    width: 90vw;
+    max-width: 45rem;
+  }
+}
+
+.project-card div a {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 1rem 0 2rem;
+}
+
+.project-card img {
+  width: 45%;
+  margin: .4rem .25rem;
+}
+
 /* SKILL-SET PAGE CLASSES =============== */
 .skill-card-container {
   padding-top: 4rem;
@@ -89,7 +128,6 @@ body {
 
 .links-container div:hover {
   transform: scale(1.1);
-  /* filter: brightness(185%); */
 }
 
 .links-container p {
