@@ -41,12 +41,35 @@ body {
   background-color: lightgrey;
 }
 
+/* CONTACTS LINKS PAGE CLASSES ========== */
+.links-container {
+  max-width: 60rem;
+  padding: 5rem 0;
+  margin: 0 auto;
+}
+
+.links-container div {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.links-container div:hover {
+  transform: scale(1.1);
+  /* filter: brightness(185%); */
+}
+
+.links-container p {
+  margin-top: 0.85rem;
+}
+
 /* FOOTER CLASSES ======================== */
 .footer {
+  padding: 2rem;
   text-align: center;
   color: white;
 }
 
 .footer .fab {
   text-decoration: none;
+  margin-bottom: 1rem;
 }
