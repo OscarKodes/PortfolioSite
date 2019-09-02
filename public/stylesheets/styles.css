@@ -1,14 +1,13 @@
+/* TAGS ==================== */
 body {
   background-color: lavender;
 }
 
-/* For Mobile Size */
-/* @media only screen and (max-width : 991px) {
-} */
-
 
 /* NAVBAR CLASSES====================== */
-
+.nav-link:hover {
+  background-color: lavender;
+}
 
 .desktop-logo {
   display: none;
@@ -35,4 +34,19 @@ body {
   .mobile-logo {
     display: none;
   }
+}
+
+/* PAGE MAIN CONTENT CLASSES ============ */
+.mid-container {
+  background-color: lightgrey;
+}
+
+/* FOOTER CLASSES ======================== */
+.footer {
+  text-align: center;
+  color: white;
+}
+
+.footer .fab {
+  text-decoration: none;
 }
