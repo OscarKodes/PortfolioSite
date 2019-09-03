@@ -36,9 +36,56 @@ body {
   }
 }
 
-/* PAGE MAIN CONTENT CLASSES ============ */
+/* WEBSITE WIDE CLASSES ============ */
 .mid-container {
   background-color: lightgrey;
+}
+
+/* FRONT PAGE CLASSES =================== */
+.front-page-img {
+  height: 50vh;
+  background-image: url("../images/bg-img.jpg");
+  background-size: cover;
+  background-position: left;
+}
+
+.greeting {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: #222;
+  transform: translateY(50vh);
+  padding: 1rem 0;
+}
+
+.greeting h1 {
+  word-wrap: break-word;
+}
+
+.front-footer {
+  margin-top: 25vh;
+}
+
+/* For Deskop Size */
+@media only screen and (min-width : 992px) {
+  .front-page-img {
+    height: 85vh;
+    background-position: center;
+  }
+
+  .greeting {
+    width: 45vw;
+    transform: translate(50vw, 40vh);
+    background-color: transparent;
+  }
+
+  .greeting h1 {
+    font-size: 4rem;
+  }
+
+  .front-footer {
+    margin-top: 0;
+  }
 }
 
 /* PROJECTS PAGE CLASSES =============== */
@@ -136,7 +183,7 @@ body {
 
 /* FOOTER CLASSES ======================== */
 .footer {
-  padding: 2rem;
+  padding: 5rem 2rem 2rem;
   text-align: center;
   color: white;
 }
