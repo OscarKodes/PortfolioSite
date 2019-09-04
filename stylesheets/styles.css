@@ -43,8 +43,8 @@ body {
 
 /* FRONT PAGE CLASSES =================== */
 .front-page-img {
-  height: 50vh;
-  background-image: url("../images/bg-img.jpg");
+  height: 70vh;
+  background-image: url("../images/bg-img.png");
   background-size: cover;
   background-position: left;
 }
@@ -52,39 +52,43 @@ body {
 .greeting {
   text-align: center;
   font-weight: bold;
-  color: white;
-  background-color: #222;
-  transform: translateY(50vh);
-  padding: 1rem 0;
+  color: black;
+  width: 50vw;
+  transform: translate(45vw, 32vh);
 }
 
 .greeting h1 {
   word-wrap: break-word;
+  line-height: 1.5;
 }
 
 .front-footer {
   margin-top: 25vh;
 }
 
+/* For Awkard Tablet Size */
+@media only screen
+  and (min-width : 576px)
+  and (max-width : 991px) {
+    .greeting h1 {
+      font-size: 3rem;
+    }
+}
+
 /* For Deskop Size */
 @media only screen and (min-width : 992px) {
   .front-page-img {
-    height: 85vh;
-    background-position: center;
+    height: 87vh;
+    background-position: top left;
   }
 
   .greeting {
-    width: 45vw;
-    transform: translate(50vw, 40vh);
-    background-color: transparent;
+    width: 65vw;
+    transform: translate(30vw, 35vh);
   }
 
   .greeting h1 {
-    font-size: 4rem;
-  }
-
-  .front-footer {
-    margin-top: 0;
+    font-size: 5rem;
   }
 }
 
@@ -191,7 +195,7 @@ body {
 
 /* FOOTER CLASSES ======================== */
 .footer {
-  padding: 5rem 2rem 2rem;
+  padding: 8rem 2rem 2rem;
   text-align: center;
   color: white;
 }
