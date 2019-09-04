@@ -38,7 +38,7 @@ body {
 
 /* WEBSITE WIDE CLASSES ============ */
 .mid-container {
-  background-color: lightgrey;
+  background-color: white;
 }
 
 /* FRONT PAGE CLASSES =================== */
@@ -133,15 +133,11 @@ body {
 
 /* SKILL-SET PAGE CLASSES =============== */
 .skill-card-container {
-  padding-top: 4rem;
-  padding-bottom: 12rem;
+  padding: 4rem 1rem 12rem;
 }
 
-.skill-card {
-  border: 1px solid grey;
-  border-radius: 0.2rem;
-  margin-top: 2rem;
-  padding: 1rem 0;
+.card-header {
+  font-size: 2.8rem;
 }
 
 /* For Deskop Size */
@@ -151,18 +147,26 @@ body {
     margin: 0 auto;
   }
 
-  .skill-card {
-    width: 10vw;
-    max-width: 20rem;
-    margin: 0 auto;
+  .card-header {
+    font-size: 2.8rem;
   }
 }
 
+/* For Awkard Tablet Size */
+@media only screen
+  and (min-width : 576px)
+  and (max-width : 991px) {
+    .card-header {
+      font-size: 1.7rem;
+    }
+}
+
 .skill-list {
-  text-align: left;
-  width: 12rem;
-  margin: 0 auto;
-  line-height: 2;
+  text-align: center;
+  margin: 1rem 0;
+
+  /* line-height: 2;
+  width: 12rem; */
 }
 
 /* CONTACTS LINKS PAGE CLASSES ========== */
