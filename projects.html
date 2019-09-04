@@ -16,7 +16,7 @@
   </head>
   <body>
 
-<!-- NAVBAR -->
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
       <!-- The logo that will show up on mobile sized screens -->
@@ -33,86 +33,114 @@
 
     </nav>
 
-<!-- MID CONTAINER -->
-<div class="mid-container">
+    <!-- MID CONTAINER -->
+    <div class="mid-container">
 
-  <div class="projects-container">
+      <!-- Container for all projects -->
+      <div class="projects-container">
 
-    <!-- Project 1 -->
+        <!-- Project 1 -->
+          <!-- Toggle Button -->
+          <button class="btn btn-dark btn-lg" type="button" data-toggle="collapse" data-target="#project1" aria-expanded="false" aria-controls="project1">
+            <i class="fas fa-caret-down fa-lg mr-5 text-secondary"></i>
+            Project 1
+            <i class="fas fa-caret-down fa-lg ml-5 text-secondary"></i>
+          </button>
 
-      <!-- Toggle Button -->
-      <button class="btn btn-dark btn-lg" type="button" data-toggle="collapse" data-target="#project1" aria-expanded="false" aria-controls="project1">
-        <i class="fas fa-caret-down fa-lg mr-5 text-secondary"></i>
-        Project 1
-        <i class="fas fa-caret-down fa-lg ml-5 text-secondary"></i>
-      </button>
+          <!-- Project 1 Contents -->
+          <div class="collapse multi-collapse" id="project1">
+            <div class="project-card">
+              <p class="description">
+                This is a project created for many people to use and enjoy.
+              </p>
+              <p class="utilized">
+                Utilized: HTML5, CSS3, JavaScript, DOM, NodeJS, Express, NPM
+              </p>
+              <div class="text-center">
+                <a class="btn btn-secondary" href="https://oscarkodes.github.io/MatchCards/" target="_blank">Link to Website</a>
+              </div>
 
-      <!-- Project 1 Contents -->
-      <div class="collapse multi-collapse" id="project1">
-        <div class="project-card">
-          <p class="description">
-            This is a project created for many people to use and enjoy.
-          </p>
-          <p class="utilized">
-            Utilized: HTML5, CSS3, JavaScript, DOM, NodeJS, Express, NPM
-          </p>
-          <div class="text-center">
-            <a class="btn btn-secondary" href="https://oscarkodes.github.io/MatchCards/" target="_blank">Link to Website</a>
+              <img src="https://images.unsplash.com/18/stones.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+              <img src="https://images.unsplash.com/18/stones.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+              <img src="https://images.unsplash.com/18/stones.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+              <img src="https://images.unsplash.com/18/stones.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+            </div>
           </div>
 
-          <img src="https://images.unsplash.com/18/stones.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
-          <img src="https://images.unsplash.com/18/stones.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
-          <img src="https://images.unsplash.com/18/stones.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
-          <img src="https://images.unsplash.com/18/stones.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+        <!-- Project 2 -->
+          <!-- Toggle Button -->
+          <button class="btn btn-dark btn-lg" type="button" data-toggle="collapse" data-target="#project2" aria-expanded="false" aria-controls="project2">
+            <i class="fas fa-caret-down fa-lg mr-5 text-secondary"></i>
+            Project 2
+            <i class="fas fa-caret-down fa-lg ml-5 text-secondary"></i>
+          </button>
+
+          <!-- Project 2 Contents -->
+          <div class="collapse multi-collapse" id="project2">
+            <div class="project-card">
+              <p class="description">
+                This is a project created for many people to use and enjoy.
+              </p>
+              <p class="utilized">
+                Utilized: HTML5, CSS3, JavaScript, DOM, NodeJS, Express, NPM
+              </p>
+              <div class="text-center">
+                <a class="btn btn-secondary" href="https://oscarkodes.github.io/MatchCards/" target="_blank">Link to Website</a>
+              </div>
+
+              <img src="https://images.unsplash.com/18/stones.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+              <img src="https://images.unsplash.com/18/stones.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+              <img src="https://images.unsplash.com/18/stones.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+              <img src="https://images.unsplash.com/18/stones.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+            </div>
+
+      </div>
+    </div>
+
+    <!-- Hidden Button for Modal -->
+    <button type="button" class="btn btn-primary d-none" data-toggle="modal" data-target="#popup-img-">
+      Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="popModal" tabindex="-1" role="dialog" aria-labelledby="popModalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- Title / Caption-->
+            <h5 class="modal-title" id="popModalTitle">Modal title</h5>
+
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <!-- Shown image -->
+          <img id="pop-img" src="images/stones.jpg" alt="">
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
-
-    <!-- Project 2 -->
-
-      <!-- Toggle Button -->
-      <button class="btn btn-dark btn-lg" type="button" data-toggle="collapse" data-target="#project2" aria-expanded="false" aria-controls="project2">
-        <i class="fas fa-caret-down fa-lg mr-5 text-secondary"></i>
-        Project 2
-        <i class="fas fa-caret-down fa-lg ml-5 text-secondary"></i>
-      </button>
-
-      <!-- Project 2 Contents -->
-      <div class="collapse multi-collapse" id="project2">
-        <div class="project-card">
-          <p class="description">
-            This is a project created for many people to use and enjoy.
-          </p>
-          <p class="utilized">
-            Utilized: HTML5, CSS3, JavaScript, DOM, NodeJS, Express, NPM
-          </p>
-          <div class="text-center">
-            <a class="btn btn-secondary" href="https://oscarkodes.github.io/MatchCards/" target="_blank">Link to Website</a>
-          </div>
-
-          <img src="https://images.unsplash.com/18/stones.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
-          <img src="https://images.unsplash.com/18/stones.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
-          <img src="https://images.unsplash.com/18/stones.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
-          <img src="https://images.unsplash.com/18/stones.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
-        </div>
-
-  </div>
-</div>
+    </div>
 
 
+    <!-- FOOTER LINKS -->
+    <div class="footer">
+      <a class="text-light"
+      href="https://www.linkedin.com/in/oscar-ko/" target="_blank"><i class="fab fa-linkedin fa-2x mr-1"></i></a>
+      <a class="text-light"
+      href="https://github.com/OscarKodes" target="_blank"><i class="fab fa-github fa-2x ml-1"></i></a>
+      <p>Website by Oscar Ko</p>
+    </div>
 
+    <!-- BootStrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<!-- FOOTER LINKS -->
-<div class="footer">
-  <a class="text-light"
-  href="https://www.linkedin.com/in/oscar-ko/" target="_blank"><i class="fab fa-linkedin fa-2x mr-1"></i></a>
-  <a class="text-light"
-  href="https://github.com/OscarKodes" target="_blank"><i class="fab fa-github fa-2x ml-1"></i></a>
-  <p>Website by Oscar Ko</p>
-</div>
-
-<!-- BootStrap Scripts -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+    <!-- Local Script for Projects -->
+    <script src="scripts/projects.js" charset="utf-8"></script>
+  </body>
 </html>

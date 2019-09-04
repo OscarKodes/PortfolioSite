@@ -127,6 +127,10 @@ body {
   margin: .4rem .25rem;
 }
 
+#pop-img {
+  width: 100%;
+}
+
 /* SKILL-SET PAGE CLASSES =============== */
 .skill-card-container {
   padding-top: 4rem;
