@@ -128,11 +128,29 @@ body {
 
 .project-card img {
   width: 45%;
+  max-height: 12rem;
+  object-fit: contain;
   margin: .4rem .25rem;
+  border: 1px black solid;
+  border-radius: .2rem;
+  box-shadow: .1rem .1rem .2rem .1rem #888;
+}
+
+.project-card img:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+  filter: brightness(120%);
+  box-shadow: .15rem .15rem .3rem .15rem #AAA;
 }
 
 #pop-img {
   width: 100%;
+  max-height: 85vh;
+  object-fit: contain;
+}
+
+.utilized {
+  text-align: center;
 }
 
 /* SKILL-SET PAGE CLASSES =============== */
