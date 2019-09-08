@@ -37,6 +37,11 @@ body {
 }
 
 /* WEBSITE WIDE CLASSES ============ */
+.header {
+  padding: 2rem 0 1rem;
+  text-align: center;
+}
+
 .mid-container {
   background-color: white;
 }
@@ -100,7 +105,7 @@ body {
 
 /* PROJECTS PAGE CLASSES =============== */
 .projects-container {
-  padding: 3rem 0 6rem;
+  padding: 0 0 6rem;
 }
 
 .projects-container button {
