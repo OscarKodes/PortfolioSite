@@ -237,17 +237,35 @@ body {
 /* CONTACTS LINKS PAGE CLASSES ========== */
 .links-container {
   max-width: 60rem;
-  padding: 5rem 0;
   margin: 0 auto;
 }
 
 .links-container div {
   text-align: center;
-  margin: 2rem 0;
+  padding: 3rem 0 1rem;
+}
+
+.links-container div:last-of-type {
+  padding-bottom: 3rem;
+}
+
+/* For Deskop Size */
+@media only screen and (min-width : 992px) {
+
+  .links-container div:first-of-type,
+  .links-container div:nth-of-type(2) {
+    padding: 7rem 0 2rem;
+  }
+
+  .links-container div:last-of-type,
+  .links-container div:nth-of-type(3) {
+    padding: 2rem 0 7rem;
+  }
 }
 
 .links-container div:hover {
-  transform: scale(1.1);
+  background: #baf5f4;
+  box-shadow: .1rem .1rem .2rem .1rem #888;
 }
 
 .links-container p {
@@ -275,5 +293,4 @@ body {
     color: #8fc4c3;
     background-color: white;
   }
-
 }
