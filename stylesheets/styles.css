@@ -38,7 +38,7 @@ body {
 
 /* WEBSITE WIDE CLASSES ============ */
 .header {
-  padding: 2rem 0 1rem;
+  padding: 4rem 0 1rem;
   text-align: center;
 }
 
@@ -105,7 +105,7 @@ body {
 
 /* PROJECTS PAGE CLASSES =============== */
 .projects-container {
-  padding: 0 0 6rem;
+  padding-bottom: 16rem;
 }
 
 .projects-container button {
@@ -207,11 +207,11 @@ body {
 
 /* SKILL-SET PAGE CLASSES =============== */
 .skill-card-container {
-  padding: 4rem 1rem 12rem;
+  padding: 0 1rem 6rem;
 }
 
 .card-header {
-  font-size: 2.8rem;
+  font-size: 1.7rem;
 }
 
 /* For Deskop Size */
@@ -224,15 +224,6 @@ body {
   .card-header {
     font-size: 2.8rem;
   }
-}
-
-/* For Awkard Tablet Size */
-@media only screen
-  and (min-width : 576px)
-  and (max-width : 991px) {
-    .card-header {
-      font-size: 1.7rem;
-    }
 }
 
 .skill-list {
