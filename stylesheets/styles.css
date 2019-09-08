@@ -191,6 +191,7 @@ body {
   width: 100%;
   max-height: 85vh;
   object-fit: contain;
+  min-width: 21.8rem;
 }
 
 .card-top {
@@ -238,7 +239,7 @@ body {
 }
 
 .modal-big {
-  min-width: 22rem!important;
+  min-width: 22rem;
 }
 
 /* SKILL-SET PAGE CLASSES =============== */
