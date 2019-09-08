@@ -237,6 +237,10 @@ body {
   font-size: .85rem;
 }
 
+.modal-big {
+  min-width: 20rem;
+}
+
 /* SKILL-SET PAGE CLASSES =============== */
 .skill-card-container {
   padding: 0 1rem 6rem;
