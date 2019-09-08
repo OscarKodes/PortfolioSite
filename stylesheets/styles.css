@@ -1,12 +1,12 @@
 /* TAGS ==================== */
 body {
-  background-color: lavender;
+  background-color: black;
 }
 
 
 /* NAVBAR CLASSES====================== */
 .nav-link:hover {
-  background-color: lavender;
+  background-color: #baf5f4;
 }
 
 .desktop-logo {
@@ -43,7 +43,7 @@ body {
 
 /* FRONT PAGE CLASSES =================== */
 .front-page-img {
-  height: 70vh;
+  height: 75vh;
   background-image: url("../images/bg-img.jpg");
   background-size: cover;
   background-position: left;
@@ -68,28 +68,34 @@ body {
 
 /* For Awkard Tablet Size */
 @media only screen
-  and (min-width : 576px)
+  and (min-width : 670px)
   and (max-width : 991px) {
+    .greeting {
+      transform: translate(45vw, 29vh);
+    }
+
     .greeting h1 {
-      font-size: 3rem;
+      font-size: 3.5rem;
     }
 }
 
 /* For Deskop Size */
 @media only screen and (min-width : 992px) {
   .front-page-img {
-    height: 87vh;
-    background-position: top left;
+    height: 80vh;
+    max-width: 85rem;
+    margin: 0 auto;
   }
 
   .greeting {
-    width: 65vw;
-    transform: translate(30vw, 35vh);
+    width: 40vw;
+    transform: translate(30rem, 29vh);
   }
 
   .greeting h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
+
 }
 
 /* PROJECTS PAGE CLASSES =============== */
@@ -256,10 +262,22 @@ body {
 .footer {
   padding: 8rem 2rem 2rem;
   text-align: center;
-  color: white;
+  color: #ddd;
+  background-color: #000;
 }
 
 .footer .fab {
   text-decoration: none;
   margin-bottom: 1rem;
+  color: #ddd;
+}
+
+/* For Deskop Size */
+@media only screen and (min-width : 992px) {
+  .footer.frontpage,
+  .footer.frontpage .fab {
+    color: #8fc4c3;
+    background-color: white;
+  }
+
 }
