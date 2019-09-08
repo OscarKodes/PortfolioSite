@@ -1,4 +1,15 @@
 /* TAGS ==================== */
+html {
+  font-size: 24px;
+}
+
+/* Desktop size */
+@media only screen and (min-width : 1080px) {
+  html {
+    font-size: 16px;
+  }
+}
+
 body {
   background-color: black;
 }
@@ -120,7 +131,7 @@ body {
   /* padding: .5rem 2rem 2rem; */
   margin: 1rem 1rem 3rem;
   border-radius: .2rem;
-  border: 1px solid black;
+  border: 0.1rem solid black;
 }
 
 /* For Deskop Size */
@@ -143,7 +154,7 @@ body {
   max-height: 12rem;
   object-fit: contain;
   margin: .4rem .25rem;
-  border: 1px black solid;
+  border: .1rem black solid;
   border-radius: .2rem;
   box-shadow: .1rem .1rem .2rem .1rem #888;
 }
