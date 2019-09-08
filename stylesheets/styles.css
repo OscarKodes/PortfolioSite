@@ -238,7 +238,7 @@ body {
 }
 
 .modal-big {
-  min-width: 22rem;
+  min-width: 22rem!important;
 }
 
 /* SKILL-SET PAGE CLASSES =============== */
