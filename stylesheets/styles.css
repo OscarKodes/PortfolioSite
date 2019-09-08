@@ -193,10 +193,6 @@ body {
   object-fit: contain;
 }
 
-.modal-dialog {
-  min-width: 90vw;
-}
-
 .card-top {
   background-color: black;
   color: white;
