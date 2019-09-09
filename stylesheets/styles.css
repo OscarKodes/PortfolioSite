@@ -131,12 +131,10 @@ body {
 }
 
 .project-card {
+  width: 100vw;
   text-align: center;
-  background-color: white;
-  /* padding: .5rem 2rem 2rem; */
-  margin: 1rem 1rem 3rem;
-  border-radius: .2rem;
-  border: 0.1rem solid black;
+  background-color: black;
+  margin: 1rem 0 3rem;
 }
 
 /* For Deskop Size */
@@ -145,36 +143,25 @@ body {
     width: 90vw;
     max-width: 45rem;
     margin: 1rem auto 3rem;
+    border: .2rem solid black;
+    border-radius: .5rem;
   }
 }
 
-.project-card div a {
+.site-img {
+  width: 100%;
+  border: 2px solid #444;
+  background-color: #444;
+  border-radius: .5rem;
+  margin-top: 2rem;
+  max-height: 30rem;
+  object-fit: contain;
+}
+
+.go-to-website-btn {
   padding-top: 0;
   padding-bottom: 0;
   margin: 1rem 0 2rem;
-}
-
-.project-card img {
-  width: 45%;
-  max-height: 12rem;
-  object-fit: contain;
-  margin: .4rem .25rem;
-  border: 1px black solid;
-  border-radius: .2rem;
-  box-shadow: .1rem .1rem .2rem .1rem #888;
-}
-
-.project-card img:hover {
-  cursor: pointer;
-  transform: scale(1.08);
-  filter: brightness(120%);
-  box-shadow: .15rem .15rem .3rem .15rem #AAA;
-}
-
-#pop-img {
-  width: 100%;
-  max-height: 85vh;
-  object-fit: contain;
 }
 
 .card-top {
@@ -186,6 +173,7 @@ body {
 
 .project-card-body {
   padding: 1.5rem 1.5rem 0;
+  background-color: white;
 }
 
 .description {
@@ -199,7 +187,7 @@ body {
 .utilized-container {
   background-color: #eee;
   max-width: 25rem;
-  margin: 1.5rem auto;
+  margin: 1.5rem auto 0;
   padding: 2rem;
   color: #444;
   text-align: left;
@@ -215,20 +203,12 @@ body {
 }
 
 .more-projects-link {
-  margin-top: 3rem;
+  margin-top: 7rem;
   text-align: center;
   color: #777;
   font-size: .85rem;
 }
 
-.modal-custom-dialog {
-  margin: 0 auto;
-}
-
-.modal-xxl {
-  width: 90vw;
-  max-width:65rem;
-}
 
 /* SKILL-SET PAGE CLASSES =============== */
 .skill-card-container {
