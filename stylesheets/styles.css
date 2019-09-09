@@ -221,8 +221,14 @@ body {
   font-size: .85rem;
 }
 
+.modal-custom-dialog {
+  margin: 0 auto;
+}
 
-
+.modal-xxl {
+  width: 90vw;
+  max-width:65rem;
+}
 
 /* SKILL-SET PAGE CLASSES =============== */
 .skill-card-container {
