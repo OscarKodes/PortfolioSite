@@ -259,6 +259,7 @@ body {
 /* For Deskop Size */
 @media only screen and (min-width : 992px) {
   .skill-card-container {
+    width: 95vw;
     max-width: 70rem;
     margin: 0 auto;
   }
