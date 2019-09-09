@@ -25,16 +25,6 @@ body {
   height: 3.5rem;
 }
 
-.desktop-logo {
-  display: none;
-  margin: 0 2rem;
-  font-size: 3rem;
-}
-
-.mobile-logo {
-  font-size: 2.5rem;
-}
-
 .navbar-nav,
 .nav-item {
   margin-left: auto;
@@ -44,28 +34,22 @@ body {
   font-size: 2rem;
 }
 
+.navbar-brand {
+  font-size: 3rem;
+}
+
 /* For Deskop Size */
 @media only screen and (min-width : 992px) {
-  .mobile-logo {
-    display: none;
-  }
-
-  .desktop-logo {
-    display: inline-block;
-    font-size: 4rem;
-  }
-
-  .navbar-nav,
-  .nav-item {
+  .navbar {
+    max-width: 60rem;
     margin: 0 auto;
   }
 
   .nav-item {
-    margin-top: 3rem;
-    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
   }
 }
-
 
 /* OTHER WEBSITE WIDE CLASSES ============ */
 .header {
@@ -175,7 +159,7 @@ body {
   max-height: 12rem;
   object-fit: contain;
   margin: .4rem .25rem;
-  border: .1rem black solid;
+  border: 1px black solid;
   border-radius: .2rem;
   box-shadow: .1rem .1rem .2rem .1rem #888;
 }
@@ -236,6 +220,8 @@ body {
   color: #777;
   font-size: .85rem;
 }
+
+
 
 
 /* SKILL-SET PAGE CLASSES =============== */
