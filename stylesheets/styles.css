@@ -328,7 +328,7 @@ body {
 }
 
 .links-container div:hover {
-  background: #baf5f4;
+  background: #999;
   box-shadow: .1rem .1rem .2rem .1rem #888;
 }
 
@@ -359,7 +359,6 @@ body {
   .footer.frontpage,
   .footer.frontpage .fab {
     color: #666;
-    /* color: #8fc4c3; */
     background-color: white;
   }
 }
