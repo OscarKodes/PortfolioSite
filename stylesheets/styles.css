@@ -67,7 +67,7 @@ body {
 }
 
 
-/* WEBSITE WIDE CLASSES ============ */
+/* OTHER WEBSITE WIDE CLASSES ============ */
 .header {
   padding: 4rem 0 1rem;
   text-align: center;
@@ -90,7 +90,7 @@ body {
   font-weight: bold;
   color: black;
   width: 50vw;
-  transform: translate(45vw, 32vh);
+  transform: translate(47vw, 32vh);
 }
 
 .greeting h1 {
@@ -103,12 +103,12 @@ body {
   margin-top: 25vh;
 }
 
-/* For Awkard Tablet Size */
+/* For Awkward Tablet Size */
 @media only screen
   and (min-width : 670px)
   and (max-width : 991px) {
     .greeting {
-      transform: translate(45vw, 29vh);
+      transform: translate(47vw, 29vh);
     }
 
     .greeting h1 {
