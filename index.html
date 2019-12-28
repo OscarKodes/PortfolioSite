@@ -1,73 +1,106 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900|Montserrat:400,700&display=swap" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900|Montserrat:400,700&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap Stylesheets -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-    <!-- Local Stylesheet -->
-    <link rel="stylesheet" href="stylesheets/styles.css">
+  <!-- Bootstrap Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Oscar Ko</title>
-  </head>
-  <body>
+  <!-- Local Stylesheet -->
+  <link rel="stylesheet" href="stylesheets/styles.css">
 
-    <!-- NAVBAR -->
-      <div class="nav-container bg-light">
-        <nav class="navbar navbar-expand-lg bg-light">
-          <a class="navbar-brand text-dark" href="index.html">Oscar Ko</a>
-          <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <title>Oscar Ko</title>
+</head>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="skill-set.html">Skill-Set</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://drive.google.com/open?id=1ixF91Ox2BTn97Q4LgOjZm-vFPT92cTZQ"
-              target="_blank">Resume</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact/Links</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+<body>
 
-  <!-- MID CONTAINER -->
-  <div class="mid-container front-page-img">
-    <div class="greeting">
-      <h1>Hi. I'm Oscar.</h1>
-      <h1>Fullstack Developer.</h1>
-    </div>
+  <!-- GREETING -->
+  <div id="greeting" class="greeting border">
+    <h1>Hi. I'm Oscar.</h1>
+    <h1>Fullstack Developer.</h1>
   </div>
 
-
-  <!-- FOOTER LINKS -->
-  <div class="footer frontpage">
-    <a class=""
-    href="https://www.linkedin.com/in/oscar-ko/" target="_blank"><i class="fab fa-linkedin fa-2x mr-1"></i></a>
-    <a class=""
-    href="https://github.com/OscarKodes" target="_blank"><i class="fab fa-github fa-2x ml-1"></i></a>
-    <p>Website by Oscar Ko</p>
+  <!-- MY WORK -->
+  <div id="my-work" class="my-work border">
+    <p>My Work</p>
+    <ul>
+      <li>
+        Petfolio (MEN + OAUTH 2.0)
+        <p>[Name]</p>
+        <p>[Description]</p>
+        <p>[Link]</p>
+        <p>[Simple images]</p>
+      </li>
+      <li>QuickFics  (MEN + OAUTH 2.0)</li>
+      <li>A Game (HTML, CSS, Javascript)</li>
+      <li>MatchCards  (HTML, CSS, Javascript)</li>
+      <li>AirGo  (HTML, CSS, Javascript)</li>
+    </ul>
   </div>
 
-<!-- BootStrap Scripts -->
+  <!-- MY SKILLSET -->
+  <div id="skillset" class="skillset border">
+    <p>My Skillset</p>
+    <ul>Frontend
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>BootStrap</li>
+      <li>JavaScript</li>
+      <li>DOM</li>
+      <li>JQuery</li>
+    </ul>
+    <ul>Backend
+      <li>MongoDB</li>
+      <li>Mongoose</li>
+      <li>Express</li>
+      <li>NodeJS</li>
+      <li>EJS</li>
+      <li>NPM</li>
+      <li>RESTful Routes</li>
+      <li>APIs</li>
+      <li>OAuth</li>
+      <li>Command Line</li>
+      <li>Git & GitHub</li>
+    </ul>
+    <li>Other
+      <li>Basic Adobe Photoshop</li>
+      <li>GIMP</li>
+      <li>Google Docs & Sheets</li>
+      <li>Microsoft Office</li>
+      <li class="mt-4">And always happy to learn new skills!</li>
+
+  </div>
+
+  <!-- CONTACT & LINKS -->
+  <div id="contact" class="contact border">
+    <a class="" href="https://drive.google.com/open?id=1ixF91Ox2BTn97Q4LgOjZm-vFPT92cTZQ" target="_blank">
+      <p><i class="far fa-file mr-1"></i>My Resume</p>
+    </a>
+    <a class="" href="mailto:OscarKoEmail@gmail.com">
+      <p><i class="far fa-envelope mr-1"></i>Email Me</p>
+    </a>
+    <a class="" href="https://www.linkedin.com/in/oscar-ko/" target="_blank">
+      <p><i class="fab fa-linkedin mr-1"></i>LinkedIn</p>
+    </a>
+    <a class="" href="https://github.com/OscarKodes" target="_blank">
+      <p><i class="fab fa-github mr-1"></i>GitHub</p>
+    </a>
+    <a class="" href="https://www.codewars.com/users/OscarKo" target="_blank">
+      <p><i class="fas fa-medal mr-1"></i>CodeWars</p>
+    </a>
+  </div>
+
+  <!-- BootStrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 </html>
